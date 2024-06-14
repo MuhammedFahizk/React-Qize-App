@@ -35,7 +35,7 @@ const Question = ({ item, id, setId, result, setResult }) => {
       {answer && (
         <p className={answer === item.answer ? 'text-green-500' : 'text-red-500'}>
          Your Answer is : {answer}
-        </p>
+        </p> 
       )}
       {click? '' : <p>Correct Answer: {item.answer}</p>}
       </div>

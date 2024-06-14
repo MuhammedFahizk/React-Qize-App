@@ -27,6 +27,7 @@ function App() {
   return (
     <div className='m-20 '>
       <h1 className='text-3xl font-bold mb-10 mx-20 text-center'>Quiz App </h1>
+      <h1 className=' text-1xl text-center m-4'>  Your Point : {result}</h1>
     {questions.map((item, index) =>  (
     index  <= id ? (
 
@@ -34,7 +35,7 @@ function App() {
     ) : ''
 
     ))}
-{result}
+
     </div>
   )
 }
